@@ -235,7 +235,7 @@ class ViewController: UIViewController {
         
     }
     func ChangeLocalData( EntityName : String , id: String , newData : String){
-        print("정신 차리고 데이터나 바꿔 ")
+        print("데이터 바꿔 주세요")
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         let context = appDelegate.persistentContainer.viewContext//보통 이렇게 쓴다고
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: EntityName)
